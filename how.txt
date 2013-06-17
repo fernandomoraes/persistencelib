@@ -3,7 +3,7 @@ PERSISTENCE LIB C/C++
 - Arquivo:
 Inclua o arquivo PERSISTENCE.H  na pasta do seu projeto, depois utilize as diretivas no topo da 
 página #include "persistence.h". Caso queira utilizar #include<persitence.h>, mova o arquivo 
-para a pasta
+para a pasta compilador.
 
 
 - Como utilizar no seu prejeto:
