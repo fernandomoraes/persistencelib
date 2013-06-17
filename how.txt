@@ -2,7 +2,7 @@ PERSISTENCE LIB C/C++
 
 - Arquivo:
 Inclua o arquivo PERSISTENCE.H  na pasta do seu projeto, depois utilize as diretivas no topo da 
-p�gina #include "persistence.h". Caso queira utilizar #include<persitence.h>, mova o arquivo 
+página #include "persistence.h". Caso queira utilizar #include<persitence.h>, mova o arquivo 
 para a pasta
 
 
@@ -17,7 +17,7 @@ para a pasta
 
 int main(){
     createTable(CONTATOS, "nome endereco email telefone"); //nome da tabela e as colunas
-    createTable(ENDERECOS, "id* rua bairro cidade estado"); //* indica que a coluna � auto-incremento
+    createTable(ENDERECOS, "id* rua bairro cidade estado"); //* indica que a coluna é auto-incremento
 
      insertInto(CONTATOS, "Fernando", "1", "fernandosmoraes@msn.com", "00000000");
      insertInto(ENDERECOS, "Av. Centenario", "Centro", "Criciuma", "Santa Catarina");
