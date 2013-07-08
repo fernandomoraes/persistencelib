@@ -13,11 +13,11 @@ tipo de SGDB ou coisa do tipo, a propósito. Um emboço bem simples de seu uso s
 
 
 int main(){
-    createTable(CONTATOS, "nome endereco email telefone"); //nome da tabela e as colunas
-    createTable(ENDERECOS, "id* rua bairro cidade estado"); //* indica que a coluna é auto-incremento
+  createTable(CONTATOS, "nome endereco email telefone"); //nome da tabela e as colunas
+  createTable(ENDERECOS, "id* rua bairro cidade estado"); //* indica que a coluna é auto-incremento
 
-     insertInto(CONTATOS, "Fernando", "1", "fernandosmoraes@msn.com", "00000000");
-     insertInto(ENDERECOS, "Av. Centenario", "Centro", "Criciuma", "Santa Catarina");
+  insertInto(CONTATOS, "Fernando", "1", "fernandosmoraes@msn.com", "00000000");
+  insertInto(ENDERECOS, "Av. Centenario", "Centro", "Criciuma", "Santa Catarina");
 
 }
 </code></pre>
