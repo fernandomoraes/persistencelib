@@ -1,7 +1,7 @@
 Persistence Lib
 
 Acredito que trabalhar com dados em linguagem C/C++ em trabalhos acadêmicos ou pequenos projetos pode-se tornar custoso e um bucado chato.
-A idéia é abstrair toda essa abertura de arquivos e toda dor de cabeça na hora de gravar e ler os dados. Isso não nenhum 
+A idéia é abstrair toda essa abertura de arquivos e toda dor de cabeça na hora de gravar e ler os dados. Isso não é nenhum 
 tipo de SGDB ou coisa do tipo, a propósito. Um emboço bem simples de seu uso seria:
 
 <pre><code>
@@ -23,4 +23,4 @@ int main(){
 </code></pre>
 
 
-Por falta de tempo e tudo mais, as principais funções como <i>DELETE, SELECT</i> e <i>UPDATE</i> ainda não foram implementadas, mas espero que isso inspire que seja escrito o resto até o fim.
+Por falta de tempo e tudo mais, as principais funções como <i>DELETE, SELECT</i> e <i>UPDATE</i> ainda não foram implementadas, mas espero que isso inspire e que seja escrito o resto até o fim.
